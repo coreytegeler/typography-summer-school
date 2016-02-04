@@ -32,6 +32,18 @@ main {
 .red {
 	color: #EB212E;
 }
+.red::-moz-selection {
+    background: #00AFEC;
+}
+.red::selection {
+    background: #00AFEC;
+}
 .blue {
 	color: #00AFEC;
+}
+.blue::-moz-selection {
+    background: #EB212E;
+}
+.blue::selection {
+    background: #EB212E;
 }
